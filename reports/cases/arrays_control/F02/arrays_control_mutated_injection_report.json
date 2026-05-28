@@ -1,0 +1,29 @@
+{
+  "source_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\testcases\\fortran\\arrays_control.f90",
+  "mutated_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\reports\\cases\\arrays_control\\F02\\arrays_control_mutated.f90",
+  "language": "fortran",
+  "requested": [
+    "F02"
+  ],
+  "applied_count": 1,
+  "applied": [
+    {
+      "mutation_id": "F02",
+      "language": "fortran",
+      "category": "type",
+      "title": "Integer assigned character literal",
+      "line": 6,
+      "column": 20,
+      "original_code": "  integer :: total = 0",
+      "mutated_code": "  integer :: total = \"hello\"",
+      "expected_keywords": [
+        "cannot convert",
+        "integer",
+        "character"
+      ],
+      "fix_hint": "Assign an integer value or change the variable type.",
+      "severity": "error"
+    }
+  ],
+  "skipped": []
+}

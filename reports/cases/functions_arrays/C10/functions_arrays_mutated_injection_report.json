@@ -1,0 +1,29 @@
+{
+  "source_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\testcases\\c\\functions_arrays.c",
+  "mutated_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\reports\\cases\\functions_arrays\\C10\\functions_arrays_mutated.c",
+  "language": "c",
+  "requested": [
+    "C10"
+  ],
+  "applied_count": 1,
+  "applied": [
+    {
+      "mutation_id": "C10",
+      "language": "c",
+      "category": "scope",
+      "title": "Redeclaration in same scope",
+      "line": 18,
+      "column": null,
+      "original_code": "<line inserted>",
+      "mutated_code": "    int total = sum_array(scores, 4);",
+      "expected_keywords": [
+        "redefinition",
+        "redeclaration",
+        "previous"
+      ],
+      "fix_hint": "Remove one declaration or use a different name.",
+      "severity": "error"
+    }
+  ],
+  "skipped": []
+}

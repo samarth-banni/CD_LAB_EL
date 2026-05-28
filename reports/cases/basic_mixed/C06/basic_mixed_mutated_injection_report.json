@@ -1,0 +1,29 @@
+{
+  "source_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\testcases\\c\\basic_mixed.c",
+  "mutated_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\reports\\cases\\basic_mixed\\C06\\basic_mixed_mutated.c",
+  "language": "c",
+  "requested": [
+    "C06"
+  ],
+  "applied_count": 1,
+  "applied": [
+    {
+      "mutation_id": "C06",
+      "language": "c",
+      "category": "pointer",
+      "title": "Invalid pointer assignment",
+      "line": 15,
+      "column": 15,
+      "original_code": "    int *ptr = &value;",
+      "mutated_code": "    int *ptr = value;",
+      "expected_keywords": [
+        "pointer",
+        "integer",
+        "incompatible"
+      ],
+      "fix_hint": "Assign an address to a pointer or change the variable type.",
+      "severity": "error"
+    }
+  ],
+  "skipped": []
+}

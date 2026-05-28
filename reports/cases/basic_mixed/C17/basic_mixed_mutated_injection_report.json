@@ -1,0 +1,29 @@
+{
+  "source_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\testcases\\c\\basic_mixed.c",
+  "mutated_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\reports\\cases\\basic_mixed\\C17\\basic_mixed_mutated.c",
+  "language": "c",
+  "requested": [
+    "C17"
+  ],
+  "applied_count": 1,
+  "applied": [
+    {
+      "mutation_id": "C17",
+      "language": "c",
+      "category": "array",
+      "title": "Too many array initializer elements",
+      "line": 16,
+      "column": 28,
+      "original_code": "    int arr[3] = {1, 2, 3};",
+      "mutated_code": "    int arr[3] = {1, 2, 3, 999, 888};",
+      "expected_keywords": [
+        "excess",
+        "initializer",
+        "array"
+      ],
+      "fix_hint": "Match the number of initializer elements to the array size.",
+      "severity": "error"
+    }
+  ],
+  "skipped": []
+}

@@ -1,0 +1,29 @@
+{
+  "source_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\testcases\\c\\basic_mixed.c",
+  "mutated_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\reports\\cases\\basic_mixed\\C18\\basic_mixed_mutated.c",
+  "language": "c",
+  "requested": [
+    "C18"
+  ],
+  "applied_count": 1,
+  "applied": [
+    {
+      "mutation_id": "C18",
+      "language": "c",
+      "category": "logic",
+      "title": "Assignment instead of comparison",
+      "line": 22,
+      "column": 15,
+      "original_code": "    if (value == 10) {",
+      "mutated_code": "    if (value = 10) {",
+      "expected_keywords": [
+        "assignment",
+        "truth value",
+        "parentheses"
+      ],
+      "fix_hint": "Use == for comparison or extra parentheses for intentional assignment.",
+      "severity": "warning"
+    }
+  ],
+  "skipped": []
+}

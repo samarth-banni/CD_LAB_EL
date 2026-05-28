@@ -1,0 +1,29 @@
+{
+  "source_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\testcases\\c\\functions_arrays.c",
+  "mutated_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\reports\\cases\\functions_arrays\\C08\\functions_arrays_mutated.c",
+  "language": "c",
+  "requested": [
+    "C08"
+  ],
+  "applied_count": 1,
+  "applied": [
+    {
+      "mutation_id": "C08",
+      "language": "c",
+      "category": "function",
+      "title": "Incompatible argument type",
+      "line": 17,
+      "column": 35,
+      "original_code": "    int total = sum_array(scores, 4);",
+      "mutated_code": "    int total = sum_array(scores, \"hello\");",
+      "expected_keywords": [
+        "argument",
+        "parameter",
+        "incompatible"
+      ],
+      "fix_hint": "Pass an argument with the parameter's expected type.",
+      "severity": "error"
+    }
+  ],
+  "skipped": []
+}

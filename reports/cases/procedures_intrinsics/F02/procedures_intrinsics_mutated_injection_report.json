@@ -1,0 +1,29 @@
+{
+  "source_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\testcases\\fortran\\procedures_intrinsics.f90",
+  "mutated_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\reports\\cases\\procedures_intrinsics\\F02\\procedures_intrinsics_mutated.f90",
+  "language": "fortran",
+  "requested": [
+    "F02"
+  ],
+  "applied_count": 1,
+  "applied": [
+    {
+      "mutation_id": "F02",
+      "language": "fortran",
+      "category": "type",
+      "title": "Integer assigned character literal",
+      "line": 5,
+      "column": 21,
+      "original_code": "  integer :: answer = 0",
+      "mutated_code": "  integer :: answer = \"hello\"",
+      "expected_keywords": [
+        "cannot convert",
+        "integer",
+        "character"
+      ],
+      "fix_hint": "Assign an integer value or change the variable type.",
+      "severity": "error"
+    }
+  ],
+  "skipped": []
+}

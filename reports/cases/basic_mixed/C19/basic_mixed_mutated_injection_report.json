@@ -1,0 +1,29 @@
+{
+  "source_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\testcases\\c\\basic_mixed.c",
+  "mutated_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\reports\\cases\\basic_mixed\\C19\\basic_mixed_mutated.c",
+  "language": "c",
+  "requested": [
+    "C19"
+  ],
+  "applied_count": 1,
+  "applied": [
+    {
+      "mutation_id": "C19",
+      "language": "c",
+      "category": "operator",
+      "title": "Invalid operator usage",
+      "line": 17,
+      "column": 23,
+      "original_code": "    float ratio = 4.5;",
+      "mutated_code": "    float ratio = 4.5 % 2.0;",
+      "expected_keywords": [
+        "invalid operands",
+        "binary",
+        "%"
+      ],
+      "fix_hint": "Use an operator valid for the operand types.",
+      "severity": "error"
+    }
+  ],
+  "skipped": []
+}

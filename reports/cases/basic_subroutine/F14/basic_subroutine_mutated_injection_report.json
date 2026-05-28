@@ -1,0 +1,29 @@
+{
+  "source_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\testcases\\fortran\\basic_subroutine.f90",
+  "mutated_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\reports\\cases\\basic_subroutine\\F14\\basic_subroutine_mutated.f90",
+  "language": "fortran",
+  "requested": [
+    "F14"
+  ],
+  "applied_count": 1,
+  "applied": [
+    {
+      "mutation_id": "F14",
+      "language": "fortran",
+      "category": "argument",
+      "title": "Assignment to INTENT(IN) dummy argument",
+      "line": 27,
+      "column": 7,
+      "original_code": "<line inserted>",
+      "mutated_code": "    b = 99",
+      "expected_keywords": [
+        "intent",
+        "in",
+        "assignment"
+      ],
+      "fix_hint": "Do not assign to an INTENT(IN) dummy argument.",
+      "severity": "error"
+    }
+  ],
+  "skipped": []
+}

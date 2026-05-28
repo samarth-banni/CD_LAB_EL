@@ -1,0 +1,30 @@
+{
+  "source_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\testcases\\c\\pointers_structs.c",
+  "mutated_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\reports\\cases\\pointers_structs\\C04\\pointers_structs_mutated.c",
+  "language": "c",
+  "requested": [
+    "C04"
+  ],
+  "applied_count": 1,
+  "applied": [
+    {
+      "mutation_id": "C04",
+      "language": "c",
+      "category": "syntax",
+      "title": "Mismatched parenthesis/bracket",
+      "line": 13,
+      "column": 14,
+      "original_code": "int main(void) {",
+      "mutated_code": "int main(void] {",
+      "expected_keywords": [
+        "expected",
+        ")",
+        "]",
+        "bracket"
+      ],
+      "fix_hint": "Use the matching closing parenthesis.",
+      "severity": "error"
+    }
+  ],
+  "skipped": []
+}

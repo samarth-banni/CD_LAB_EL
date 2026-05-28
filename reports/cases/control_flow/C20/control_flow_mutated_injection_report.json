@@ -1,0 +1,29 @@
+{
+  "source_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\testcases\\c\\control_flow.c",
+  "mutated_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\reports\\cases\\control_flow\\C20\\control_flow_mutated.c",
+  "language": "c",
+  "requested": [
+    "C20"
+  ],
+  "applied_count": 1,
+  "applied": [
+    {
+      "mutation_id": "C20",
+      "language": "c",
+      "category": "format",
+      "title": "Format string mismatch",
+      "line": 19,
+      "column": 13,
+      "original_code": "    printf(\"%d\\n\", result);",
+      "mutated_code": "    printf(\"%s\\n\", result);",
+      "expected_keywords": [
+        "format",
+        "expects",
+        "argument"
+      ],
+      "fix_hint": "Use a printf conversion matching the argument type.",
+      "severity": "warning"
+    }
+  ],
+  "skipped": []
+}

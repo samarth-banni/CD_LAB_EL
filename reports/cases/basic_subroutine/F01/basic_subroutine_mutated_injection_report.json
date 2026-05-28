@@ -1,0 +1,29 @@
+{
+  "source_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\testcases\\fortran\\basic_subroutine.f90",
+  "mutated_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\reports\\cases\\basic_subroutine\\F01\\basic_subroutine_mutated.f90",
+  "language": "fortran",
+  "requested": [
+    "F01"
+  ],
+  "applied_count": 1,
+  "applied": [
+    {
+      "mutation_id": "F01",
+      "language": "fortran",
+      "category": "control-flow",
+      "title": "Missing END IF",
+      "line": 14,
+      "column": null,
+      "original_code": "  end if",
+      "mutated_code": "<line deleted>",
+      "expected_keywords": [
+        "end if",
+        "expecting",
+        "if"
+      ],
+      "fix_hint": "Restore the matching END IF.",
+      "severity": "error"
+    }
+  ],
+  "skipped": []
+}

@@ -1,0 +1,16 @@
+{
+  "source_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\testcases\\fortran\\arrays_control.f90",
+  "mutated_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\reports\\cases\\arrays_control\\F11\\arrays_control_mutated.f90",
+  "language": "fortran",
+  "requested": [
+    "F11"
+  ],
+  "applied_count": 0,
+  "applied": [],
+  "skipped": [
+    {
+      "mutation_id": "F11",
+      "reason": "no suitable mutation site found"
+    }
+  ]
+}

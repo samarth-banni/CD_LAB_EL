@@ -1,0 +1,29 @@
+{
+  "source_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\testcases\\fortran\\arrays_control.f90",
+  "mutated_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\reports\\cases\\arrays_control\\F20\\arrays_control_mutated.f90",
+  "language": "fortran",
+  "requested": [
+    "F20"
+  ],
+  "applied_count": 1,
+  "applied": [
+    {
+      "mutation_id": "F20",
+      "language": "fortran",
+      "category": "module",
+      "title": "Missing module dependency",
+      "line": 2,
+      "column": 7,
+      "original_code": "<line inserted>",
+      "mutated_code": "  use missing_module",
+      "expected_keywords": [
+        "module file",
+        "cannot open",
+        "missing_module"
+      ],
+      "fix_hint": "Provide the module or remove the USE statement.",
+      "severity": "error"
+    }
+  ],
+  "skipped": []
+}

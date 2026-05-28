@@ -1,0 +1,29 @@
+{
+  "source_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\testcases\\fortran\\procedures_intrinsics.f90",
+  "mutated_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\reports\\cases\\procedures_intrinsics\\F10\\procedures_intrinsics_mutated.f90",
+  "language": "fortran",
+  "requested": [
+    "F10"
+  ],
+  "applied_count": 1,
+  "applied": [
+    {
+      "mutation_id": "F10",
+      "language": "fortran",
+      "category": "scope",
+      "title": "Redeclaration in same scope",
+      "line": 18,
+      "column": null,
+      "original_code": "<line inserted>",
+      "mutated_code": "    integer, intent(in) :: value",
+      "expected_keywords": [
+        "already",
+        "declared",
+        "symbol"
+      ],
+      "fix_hint": "Remove the duplicate declaration.",
+      "severity": "error"
+    }
+  ],
+  "skipped": []
+}

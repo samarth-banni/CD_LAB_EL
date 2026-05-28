@@ -1,0 +1,29 @@
+{
+  "source_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\testcases\\c\\functions_arrays.c",
+  "mutated_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\reports\\cases\\functions_arrays\\C01\\functions_arrays_mutated.c",
+  "language": "c",
+  "requested": [
+    "C01"
+  ],
+  "applied_count": 1,
+  "applied": [
+    {
+      "mutation_id": "C01",
+      "language": "c",
+      "category": "syntax",
+      "title": "Missing semicolon",
+      "line": 23,
+      "column": 12,
+      "original_code": "    return 0;",
+      "mutated_code": "    return 0",
+      "expected_keywords": [
+        "semicolon",
+        "expected",
+        ";"
+      ],
+      "fix_hint": "Restore the semicolon at the end of the statement.",
+      "severity": "error"
+    }
+  ],
+  "skipped": []
+}

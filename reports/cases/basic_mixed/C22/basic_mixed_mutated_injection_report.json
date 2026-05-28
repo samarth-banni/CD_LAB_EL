@@ -1,0 +1,29 @@
+{
+  "source_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\testcases\\c\\basic_mixed.c",
+  "mutated_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\reports\\cases\\basic_mixed\\C22\\basic_mixed_mutated.c",
+  "language": "c",
+  "requested": [
+    "C22"
+  ],
+  "applied_count": 1,
+  "applied": [
+    {
+      "mutation_id": "C22",
+      "language": "c",
+      "category": "qualifier",
+      "title": "Assignment to const variable",
+      "line": 24,
+      "column": 15,
+      "original_code": "<line inserted>",
+      "mutated_code": "        local = 7;",
+      "expected_keywords": [
+        "read-only",
+        "const",
+        "assignment"
+      ],
+      "fix_hint": "Do not assign to const storage after initialization.",
+      "severity": "error"
+    }
+  ],
+  "skipped": []
+}

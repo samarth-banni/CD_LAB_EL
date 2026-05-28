@@ -1,0 +1,29 @@
+{
+  "source_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\testcases\\fortran\\arrays_control.f90",
+  "mutated_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\reports\\cases\\arrays_control\\F12\\arrays_control_mutated.f90",
+  "language": "fortran",
+  "requested": [
+    "F12"
+  ],
+  "applied_count": 1,
+  "applied": [
+    {
+      "mutation_id": "F12",
+      "language": "fortran",
+      "category": "syntax",
+      "title": "Missing END PROGRAM",
+      "line": 16,
+      "column": null,
+      "original_code": "end program arrays_control",
+      "mutated_code": "<line deleted>",
+      "expected_keywords": [
+        "unexpected end",
+        "end program",
+        "expecting"
+      ],
+      "fix_hint": "Restore the END PROGRAM statement.",
+      "severity": "error"
+    }
+  ],
+  "skipped": []
+}

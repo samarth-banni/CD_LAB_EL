@@ -1,0 +1,29 @@
+{
+  "source_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\testcases\\fortran\\basic_subroutine.f90",
+  "mutated_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\reports\\cases\\basic_subroutine\\F07\\basic_subroutine_mutated.f90",
+  "language": "fortran",
+  "requested": [
+    "F07"
+  ],
+  "applied_count": 1,
+  "applied": [
+    {
+      "mutation_id": "F07",
+      "language": "fortran",
+      "category": "type",
+      "title": "Character length truncation",
+      "line": 7,
+      "column": 13,
+      "original_code": "  character(len=5) :: name = \"hello\"",
+      "mutated_code": "  character(len=1) :: name = \"hello\"",
+      "expected_keywords": [
+        "truncated",
+        "character",
+        "conversion"
+      ],
+      "fix_hint": "Use a large enough character length.",
+      "severity": "warning"
+    }
+  ],
+  "skipped": []
+}

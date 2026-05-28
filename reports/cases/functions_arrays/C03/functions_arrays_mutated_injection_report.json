@@ -1,0 +1,29 @@
+{
+  "source_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\testcases\\c\\functions_arrays.c",
+  "mutated_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\reports\\cases\\functions_arrays\\C03\\functions_arrays_mutated.c",
+  "language": "c",
+  "requested": [
+    "C03"
+  ],
+  "applied_count": 1,
+  "applied": [
+    {
+      "mutation_id": "C03",
+      "language": "c",
+      "category": "syntax",
+      "title": "Missing closing brace",
+      "line": 21,
+      "column": null,
+      "original_code": "    }",
+      "mutated_code": "<line deleted>",
+      "expected_keywords": [
+        "expected",
+        "brace",
+        "}"
+      ],
+      "fix_hint": "Restore the deleted closing brace.",
+      "severity": "error"
+    }
+  ],
+  "skipped": []
+}

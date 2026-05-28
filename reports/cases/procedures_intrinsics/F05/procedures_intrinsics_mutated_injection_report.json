@@ -1,0 +1,29 @@
+{
+  "source_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\testcases\\fortran\\procedures_intrinsics.f90",
+  "mutated_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\reports\\cases\\procedures_intrinsics\\F05\\procedures_intrinsics_mutated.f90",
+  "language": "fortran",
+  "requested": [
+    "F05"
+  ],
+  "applied_count": 1,
+  "applied": [
+    {
+      "mutation_id": "F05",
+      "language": "fortran",
+      "category": "syntax",
+      "title": "Missing THEN in IF block",
+      "line": 9,
+      "column": null,
+      "original_code": "  if (answer == 42) then",
+      "mutated_code": "  if (answer == 42)",
+      "expected_keywords": [
+        "then",
+        "syntax",
+        "if"
+      ],
+      "fix_hint": "Add THEN to the block IF statement.",
+      "severity": "error"
+    }
+  ],
+  "skipped": []
+}

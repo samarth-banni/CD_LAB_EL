@@ -1,0 +1,30 @@
+{
+  "source_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\testcases\\c\\functions_arrays.c",
+  "mutated_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\reports\\cases\\functions_arrays\\C05\\functions_arrays_mutated.c",
+  "language": "c",
+  "requested": [
+    "C05"
+  ],
+  "applied_count": 1,
+  "applied": [
+    {
+      "mutation_id": "C05",
+      "language": "c",
+      "category": "type",
+      "title": "Type mismatch assignment",
+      "line": 8,
+      "column": 16,
+      "original_code": "    int total = 0;",
+      "mutated_code": "    int total = \"hello\";",
+      "expected_keywords": [
+        "incompatible",
+        "integer",
+        "pointer",
+        "conversion"
+      ],
+      "fix_hint": "Use a value whose type matches the declared variable.",
+      "severity": "error"
+    }
+  ],
+  "skipped": []
+}

@@ -1,0 +1,29 @@
+{
+  "source_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\testcases\\c\\pointers_structs.c",
+  "mutated_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\reports\\cases\\pointers_structs\\C09\\pointers_structs_mutated.c",
+  "language": "c",
+  "requested": [
+    "C09"
+  ],
+  "applied_count": 1,
+  "applied": [
+    {
+      "mutation_id": "C09",
+      "language": "c",
+      "category": "scope",
+      "title": "Undeclared variable",
+      "line": 18,
+      "column": 7,
+      "original_code": "    s.id = 101;",
+      "mutated_code": "    s.missing_id = 101;",
+      "expected_keywords": [
+        "undeclared",
+        "identifier",
+        "not declared"
+      ],
+      "fix_hint": "Declare the variable or correct the spelling.",
+      "severity": "error"
+    }
+  ],
+  "skipped": []
+}

@@ -1,0 +1,29 @@
+{
+  "source_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\testcases\\fortran\\arrays_control.f90",
+  "mutated_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\reports\\cases\\arrays_control\\F16\\arrays_control_mutated.f90",
+  "language": "fortran",
+  "requested": [
+    "F16"
+  ],
+  "applied_count": 1,
+  "applied": [
+    {
+      "mutation_id": "F16",
+      "language": "fortran",
+      "category": "array",
+      "title": "Mixed-type array constructor",
+      "line": 5,
+      "column": 39,
+      "original_code": "  integer :: values(4) = [1, 2, 3, 4]",
+      "mutated_code": "  integer :: values(4) = [1, 2, 3, 4, \"text\"]",
+      "expected_keywords": [
+        "array constructor",
+        "integer",
+        "character"
+      ],
+      "fix_hint": "Use elements of a consistent type in the constructor.",
+      "severity": "error"
+    }
+  ],
+  "skipped": []
+}

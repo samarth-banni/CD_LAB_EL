@@ -1,0 +1,29 @@
+{
+  "source_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\testcases\\fortran\\basic_subroutine.f90",
+  "mutated_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\reports\\cases\\basic_subroutine\\F10\\basic_subroutine_mutated.f90",
+  "language": "fortran",
+  "requested": [
+    "F10"
+  ],
+  "applied_count": 1,
+  "applied": [
+    {
+      "mutation_id": "F10",
+      "language": "fortran",
+      "category": "scope",
+      "title": "Redeclaration in same scope",
+      "line": 8,
+      "column": null,
+      "original_code": "<line inserted>",
+      "mutated_code": "  character(len=5) :: name = \"hello\"",
+      "expected_keywords": [
+        "already",
+        "declared",
+        "symbol"
+      ],
+      "fix_hint": "Remove the duplicate declaration.",
+      "severity": "error"
+    }
+  ],
+  "skipped": []
+}

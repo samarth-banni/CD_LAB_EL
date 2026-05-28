@@ -1,0 +1,29 @@
+{
+  "source_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\testcases\\c\\functions_arrays.c",
+  "mutated_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\reports\\cases\\functions_arrays\\C13\\functions_arrays_mutated.c",
+  "language": "c",
+  "requested": [
+    "C13"
+  ],
+  "applied_count": 1,
+  "applied": [
+    {
+      "mutation_id": "C13",
+      "language": "c",
+      "category": "function",
+      "title": "Wrong number of function arguments",
+      "line": 17,
+      "column": 26,
+      "original_code": "    int total = sum_array(scores, 4);",
+      "mutated_code": "    int total = sum_array(scores);",
+      "expected_keywords": [
+        "too few",
+        "too many",
+        "arguments"
+      ],
+      "fix_hint": "Call the function with the declared number of arguments.",
+      "severity": "error"
+    }
+  ],
+  "skipped": []
+}

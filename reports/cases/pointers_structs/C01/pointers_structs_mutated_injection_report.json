@@ -1,0 +1,29 @@
+{
+  "source_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\testcases\\c\\pointers_structs.c",
+  "mutated_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\reports\\cases\\pointers_structs\\C01\\pointers_structs_mutated.c",
+  "language": "c",
+  "requested": [
+    "C01"
+  ],
+  "applied_count": 1,
+  "applied": [
+    {
+      "mutation_id": "C01",
+      "language": "c",
+      "category": "syntax",
+      "title": "Missing semicolon",
+      "line": 16,
+      "column": 20,
+      "original_code": "    struct Student s;",
+      "mutated_code": "    struct Student s",
+      "expected_keywords": [
+        "semicolon",
+        "expected",
+        ";"
+      ],
+      "fix_hint": "Restore the semicolon at the end of the statement.",
+      "severity": "error"
+    }
+  ],
+  "skipped": []
+}

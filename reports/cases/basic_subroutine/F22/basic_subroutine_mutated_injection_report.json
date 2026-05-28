@@ -1,0 +1,29 @@
+{
+  "source_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\testcases\\fortran\\basic_subroutine.f90",
+  "mutated_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\reports\\cases\\basic_subroutine\\F22\\basic_subroutine_mutated.f90",
+  "language": "fortran",
+  "requested": [
+    "F22"
+  ],
+  "applied_count": 1,
+  "applied": [
+    {
+      "mutation_id": "F22",
+      "language": "fortran",
+      "category": "type",
+      "title": "Relational comparison type mismatch",
+      "line": 12,
+      "column": 12,
+      "original_code": "  if (value == 10) then",
+      "mutated_code": "  if (name == 10) then",
+      "expected_keywords": [
+        "comparison",
+        "integer",
+        "character"
+      ],
+      "fix_hint": "Compare values with compatible types.",
+      "severity": "error"
+    }
+  ],
+  "skipped": []
+}

@@ -1,0 +1,29 @@
+{
+  "source_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\testcases\\c\\basic_mixed.c",
+  "mutated_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\reports\\cases\\basic_mixed\\C10\\basic_mixed_mutated.c",
+  "language": "c",
+  "requested": [
+    "C10"
+  ],
+  "applied_count": 1,
+  "applied": [
+    {
+      "mutation_id": "C10",
+      "language": "c",
+      "category": "scope",
+      "title": "Redeclaration in same scope",
+      "line": 18,
+      "column": null,
+      "original_code": "<line inserted>",
+      "mutated_code": "    float ratio = 4.5;",
+      "expected_keywords": [
+        "redefinition",
+        "redeclaration",
+        "previous"
+      ],
+      "fix_hint": "Remove one declaration or use a different name.",
+      "severity": "error"
+    }
+  ],
+  "skipped": []
+}

@@ -1,0 +1,30 @@
+{
+  "source_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\testcases\\c\\basic_mixed.c",
+  "mutated_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\reports\\cases\\basic_mixed\\C05\\basic_mixed_mutated.c",
+  "language": "c",
+  "requested": [
+    "C05"
+  ],
+  "applied_count": 1,
+  "applied": [
+    {
+      "mutation_id": "C05",
+      "language": "c",
+      "category": "type",
+      "title": "Type mismatch assignment",
+      "line": 14,
+      "column": 16,
+      "original_code": "    int value = 10;",
+      "mutated_code": "    int value = \"hello\";",
+      "expected_keywords": [
+        "incompatible",
+        "integer",
+        "pointer",
+        "conversion"
+      ],
+      "fix_hint": "Use a value whose type matches the declared variable.",
+      "severity": "error"
+    }
+  ],
+  "skipped": []
+}

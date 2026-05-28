@@ -1,0 +1,16 @@
+{
+  "source_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\testcases\\c\\functions_arrays.c",
+  "mutated_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\reports\\cases\\functions_arrays\\C12\\functions_arrays_mutated.c",
+  "language": "c",
+  "requested": [
+    "C12"
+  ],
+  "applied_count": 0,
+  "applied": [],
+  "skipped": [
+    {
+      "mutation_id": "C12",
+      "reason": "no suitable mutation site found"
+    }
+  ]
+}

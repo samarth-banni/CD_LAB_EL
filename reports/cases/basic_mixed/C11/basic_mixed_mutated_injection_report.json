@@ -1,0 +1,28 @@
+{
+  "source_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\testcases\\c\\basic_mixed.c",
+  "mutated_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\reports\\cases\\basic_mixed\\C11\\basic_mixed_mutated.c",
+  "language": "c",
+  "requested": [
+    "C11"
+  ],
+  "applied_count": 1,
+  "applied": [
+    {
+      "mutation_id": "C11",
+      "language": "c",
+      "category": "dataflow",
+      "title": "Use before initialization",
+      "line": 18,
+      "column": 18,
+      "original_code": "    float ratio = 4.5;",
+      "mutated_code": "    printf(\"%d\", ratio);",
+      "expected_keywords": [
+        "uninitialized",
+        "may be used"
+      ],
+      "fix_hint": "Initialize the variable before its first use.",
+      "severity": "warning"
+    }
+  ],
+  "skipped": []
+}

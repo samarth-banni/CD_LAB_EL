@@ -1,0 +1,29 @@
+{
+  "source_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\testcases\\fortran\\procedures_intrinsics.f90",
+  "mutated_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\reports\\cases\\procedures_intrinsics\\F18\\procedures_intrinsics_mutated.f90",
+  "language": "fortran",
+  "requested": [
+    "F18"
+  ],
+  "applied_count": 1,
+  "applied": [
+    {
+      "mutation_id": "F18",
+      "language": "fortran",
+      "category": "function",
+      "title": "Unknown intrinsic/function call",
+      "line": 10,
+      "column": 15,
+      "original_code": "     print *, sqrt(x), answer",
+      "mutated_code": "     print *, sqrtt(x), answer",
+      "expected_keywords": [
+        "implicit",
+        "function",
+        "no implicit type"
+      ],
+      "fix_hint": "Declare the function or correct the intrinsic name.",
+      "severity": "error"
+    }
+  ],
+  "skipped": []
+}

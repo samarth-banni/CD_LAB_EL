@@ -1,0 +1,29 @@
+{
+  "source_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\testcases\\c\\basic_mixed.c",
+  "mutated_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\reports\\cases\\basic_mixed\\C08\\basic_mixed_mutated.c",
+  "language": "c",
+  "requested": [
+    "C08"
+  ],
+  "applied_count": 1,
+  "applied": [
+    {
+      "mutation_id": "C08",
+      "language": "c",
+      "category": "function",
+      "title": "Incompatible argument type",
+      "line": 32,
+      "column": 27,
+      "original_code": "    return add(value, arr[1]);",
+      "mutated_code": "    return add(value, arr[\"hello\"]);",
+      "expected_keywords": [
+        "argument",
+        "parameter",
+        "incompatible"
+      ],
+      "fix_hint": "Pass an argument with the parameter's expected type.",
+      "severity": "error"
+    }
+  ],
+  "skipped": []
+}

@@ -1,0 +1,29 @@
+{
+  "source_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\testcases\\c\\basic_mixed.c",
+  "mutated_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\reports\\cases\\basic_mixed\\C24\\basic_mixed_mutated.c",
+  "language": "c",
+  "requested": [
+    "C24"
+  ],
+  "applied_count": 1,
+  "applied": [
+    {
+      "mutation_id": "C24",
+      "language": "c",
+      "category": "structure",
+      "title": "Invalid struct member",
+      "line": 20,
+      "column": 7,
+      "original_code": "    p.y = 2;",
+      "mutated_code": "    p.missing_member = 2;",
+      "expected_keywords": [
+        "member",
+        "structure",
+        "no member"
+      ],
+      "fix_hint": "Use an existing struct member name.",
+      "severity": "error"
+    }
+  ],
+  "skipped": []
+}

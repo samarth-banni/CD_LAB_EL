@@ -1,0 +1,29 @@
+{
+  "source_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\testcases\\c\\basic_mixed.c",
+  "mutated_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\reports\\cases\\basic_mixed\\C21\\basic_mixed_mutated.c",
+  "language": "c",
+  "requested": [
+    "C21"
+  ],
+  "applied_count": 1,
+  "applied": [
+    {
+      "mutation_id": "C21",
+      "language": "c",
+      "category": "include",
+      "title": "Missing required include",
+      "line": 1,
+      "column": null,
+      "original_code": "#include <stdio.h>",
+      "mutated_code": "<line deleted>",
+      "expected_keywords": [
+        "implicit",
+        "declaration",
+        "printf"
+      ],
+      "fix_hint": "Include the header declaring the function.",
+      "severity": "error"
+    }
+  ],
+  "skipped": []
+}

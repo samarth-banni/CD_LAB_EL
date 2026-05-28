@@ -1,0 +1,29 @@
+{
+  "source_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\testcases\\fortran\\basic_subroutine.f90",
+  "mutated_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\reports\\cases\\basic_subroutine\\F21\\basic_subroutine_mutated.f90",
+  "language": "fortran",
+  "requested": [
+    "F21"
+  ],
+  "applied_count": 1,
+  "applied": [
+    {
+      "mutation_id": "F21",
+      "language": "fortran",
+      "category": "declaration",
+      "title": "Declaration after executable statement",
+      "line": 14,
+      "column": 3,
+      "original_code": "<line inserted>",
+      "mutated_code": "  integer :: late_var",
+      "expected_keywords": [
+        "unexpected data declaration",
+        "declaration",
+        "executable"
+      ],
+      "fix_hint": "Move declarations before executable statements.",
+      "severity": "error"
+    }
+  ],
+  "skipped": []
+}

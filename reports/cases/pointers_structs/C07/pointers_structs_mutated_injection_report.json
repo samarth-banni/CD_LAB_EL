@@ -1,0 +1,30 @@
+{
+  "source_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\testcases\\c\\pointers_structs.c",
+  "mutated_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\reports\\cases\\pointers_structs\\C07\\pointers_structs_mutated.c",
+  "language": "c",
+  "requested": [
+    "C07"
+  ],
+  "applied_count": 1,
+  "applied": [
+    {
+      "mutation_id": "C07",
+      "language": "c",
+      "category": "type",
+      "title": "Wrong return type",
+      "line": 22,
+      "column": 5,
+      "original_code": "    return 0;",
+      "mutated_code": "    return \"wrong\";",
+      "expected_keywords": [
+        "return",
+        "pointer",
+        "integer",
+        "incompatible"
+      ],
+      "fix_hint": "Return a value compatible with the function return type.",
+      "severity": "error"
+    }
+  ],
+  "skipped": []
+}

@@ -1,0 +1,29 @@
+{
+  "source_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\testcases\\fortran\\procedures_intrinsics.f90",
+  "mutated_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\reports\\cases\\procedures_intrinsics\\F19\\procedures_intrinsics_mutated.f90",
+  "language": "fortran",
+  "requested": [
+    "F19"
+  ],
+  "applied_count": 1,
+  "applied": [
+    {
+      "mutation_id": "F19",
+      "language": "fortran",
+      "category": "syntax",
+      "title": "Missing CONTAINS before internal subprogram",
+      "line": 13,
+      "column": null,
+      "original_code": "contains",
+      "mutated_code": "<line deleted>",
+      "expected_keywords": [
+        "contains",
+        "unexpected",
+        "subroutine"
+      ],
+      "fix_hint": "Restore CONTAINS before internal procedures.",
+      "severity": "error"
+    }
+  ],
+  "skipped": []
+}

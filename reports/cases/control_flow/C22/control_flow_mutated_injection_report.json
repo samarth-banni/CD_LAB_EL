@@ -1,0 +1,29 @@
+{
+  "source_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\testcases\\c\\control_flow.c",
+  "mutated_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\reports\\cases\\control_flow\\C22\\control_flow_mutated.c",
+  "language": "c",
+  "requested": [
+    "C22"
+  ],
+  "applied_count": 1,
+  "applied": [
+    {
+      "mutation_id": "C22",
+      "language": "c",
+      "category": "qualifier",
+      "title": "Assignment to const variable",
+      "line": 19,
+      "column": 12,
+      "original_code": "<line inserted>",
+      "mutated_code": "    result = 7;",
+      "expected_keywords": [
+        "read-only",
+        "const",
+        "assignment"
+      ],
+      "fix_hint": "Do not assign to const storage after initialization.",
+      "severity": "error"
+    }
+  ],
+  "skipped": []
+}

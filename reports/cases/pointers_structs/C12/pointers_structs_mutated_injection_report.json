@@ -1,0 +1,16 @@
+{
+  "source_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\testcases\\c\\pointers_structs.c",
+  "mutated_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\reports\\cases\\pointers_structs\\C12\\pointers_structs_mutated.c",
+  "language": "c",
+  "requested": [
+    "C12"
+  ],
+  "applied_count": 0,
+  "applied": [],
+  "skipped": [
+    {
+      "mutation_id": "C12",
+      "reason": "no suitable mutation site found"
+    }
+  ]
+}

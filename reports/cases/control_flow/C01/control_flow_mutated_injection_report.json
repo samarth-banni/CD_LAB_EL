@@ -1,0 +1,29 @@
+{
+  "source_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\testcases\\c\\control_flow.c",
+  "mutated_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\reports\\cases\\control_flow\\C01\\control_flow_mutated.c",
+  "language": "c",
+  "requested": [
+    "C01"
+  ],
+  "applied_count": 1,
+  "applied": [
+    {
+      "mutation_id": "C01",
+      "language": "c",
+      "category": "syntax",
+      "title": "Missing semicolon",
+      "line": 18,
+      "column": 28,
+      "original_code": "    int result = classify(5);",
+      "mutated_code": "    int result = classify(5)",
+      "expected_keywords": [
+        "semicolon",
+        "expected",
+        ";"
+      ],
+      "fix_hint": "Restore the semicolon at the end of the statement.",
+      "severity": "error"
+    }
+  ],
+  "skipped": []
+}

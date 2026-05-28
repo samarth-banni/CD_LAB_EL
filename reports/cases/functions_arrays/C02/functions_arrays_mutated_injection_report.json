@@ -1,0 +1,29 @@
+{
+  "source_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\testcases\\c\\functions_arrays.c",
+  "mutated_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\reports\\cases\\functions_arrays\\C02\\functions_arrays_mutated.c",
+  "language": "c",
+  "requested": [
+    "C02"
+  ],
+  "applied_count": 1,
+  "applied": [
+    {
+      "mutation_id": "C02",
+      "language": "c",
+      "category": "syntax",
+      "title": "Extra semicolon after control statement",
+      "line": 19,
+      "column": 24,
+      "original_code": "    if (total == 100) {",
+      "mutated_code": "    if (total == 100) {;",
+      "expected_keywords": [
+        "empty body",
+        "semicolon",
+        "warning"
+      ],
+      "fix_hint": "Remove the stray semicolon after the control condition.",
+      "severity": "warning"
+    }
+  ],
+  "skipped": []
+}

@@ -1,0 +1,29 @@
+{
+  "source_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\testcases\\fortran\\arrays_control.f90",
+  "mutated_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\reports\\cases\\arrays_control\\F06\\arrays_control_mutated.f90",
+  "language": "fortran",
+  "requested": [
+    "F06"
+  ],
+  "applied_count": 1,
+  "applied": [
+    {
+      "mutation_id": "F06",
+      "language": "fortran",
+      "category": "array",
+      "title": "Array rank mismatch",
+      "line": 5,
+      "column": 20,
+      "original_code": "  integer :: values(4) = [1, 2, 3, 4]",
+      "mutated_code": "  integer :: values(1, 1) = [1, 2, 3, 4]",
+      "expected_keywords": [
+        "rank",
+        "array",
+        "subscript"
+      ],
+      "fix_hint": "Use the declared array rank.",
+      "severity": "error"
+    }
+  ],
+  "skipped": []
+}

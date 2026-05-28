@@ -1,0 +1,29 @@
+{
+  "source_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\testcases\\c\\control_flow.c",
+  "mutated_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\reports\\cases\\control_flow\\C18\\control_flow_mutated.c",
+  "language": "c",
+  "requested": [
+    "C18"
+  ],
+  "applied_count": 1,
+  "applied": [
+    {
+      "mutation_id": "C18",
+      "language": "c",
+      "category": "logic",
+      "title": "Assignment instead of comparison",
+      "line": 9,
+      "column": 15,
+      "original_code": "        if (i == 3) {",
+      "mutated_code": "        if (i = 3) {",
+      "expected_keywords": [
+        "assignment",
+        "truth value",
+        "parentheses"
+      ],
+      "fix_hint": "Use == for comparison or extra parentheses for intentional assignment.",
+      "severity": "warning"
+    }
+  ],
+  "skipped": []
+}

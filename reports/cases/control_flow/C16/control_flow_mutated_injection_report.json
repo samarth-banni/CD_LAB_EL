@@ -1,0 +1,16 @@
+{
+  "source_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\testcases\\c\\control_flow.c",
+  "mutated_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\reports\\cases\\control_flow\\C16\\control_flow_mutated.c",
+  "language": "c",
+  "requested": [
+    "C16"
+  ],
+  "applied_count": 0,
+  "applied": [],
+  "skipped": [
+    {
+      "mutation_id": "C16",
+      "reason": "no suitable mutation site found"
+    }
+  ]
+}

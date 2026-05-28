@@ -1,0 +1,29 @@
+{
+  "source_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\testcases\\c\\basic_mixed.c",
+  "mutated_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\reports\\cases\\basic_mixed\\C13\\basic_mixed_mutated.c",
+  "language": "c",
+  "requested": [
+    "C13"
+  ],
+  "applied_count": 1,
+  "applied": [
+    {
+      "mutation_id": "C13",
+      "language": "c",
+      "category": "function",
+      "title": "Wrong number of function arguments",
+      "line": 28,
+      "column": 21,
+      "original_code": "        arr[i] = add(arr[i], value);",
+      "mutated_code": "        arr[i] = add(arr[i]);",
+      "expected_keywords": [
+        "too few",
+        "too many",
+        "arguments"
+      ],
+      "fix_hint": "Call the function with the declared number of arguments.",
+      "severity": "error"
+    }
+  ],
+  "skipped": []
+}

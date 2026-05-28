@@ -1,0 +1,29 @@
+{
+  "source_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\testcases\\c\\pointers_structs.c",
+  "mutated_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\reports\\cases\\pointers_structs\\C20\\pointers_structs_mutated.c",
+  "language": "c",
+  "requested": [
+    "C20"
+  ],
+  "applied_count": 1,
+  "applied": [
+    {
+      "mutation_id": "C20",
+      "language": "c",
+      "category": "format",
+      "title": "Format string mismatch",
+      "line": 21,
+      "column": 13,
+      "original_code": "    printf(\"%d %.1f %p\\n\", update_grade(&s, 2.0), s.grade, (void *)count_ptr);",
+      "mutated_code": "    printf(\"%s %.1f %p\\n\", update_grade(&s, 2.0), s.grade, (void *)count_ptr);",
+      "expected_keywords": [
+        "format",
+        "expects",
+        "argument"
+      ],
+      "fix_hint": "Use a printf conversion matching the argument type.",
+      "severity": "warning"
+    }
+  ],
+  "skipped": []
+}

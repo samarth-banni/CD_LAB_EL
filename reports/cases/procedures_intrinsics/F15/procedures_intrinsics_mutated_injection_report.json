@@ -1,0 +1,29 @@
+{
+  "source_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\testcases\\fortran\\procedures_intrinsics.f90",
+  "mutated_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\reports\\cases\\procedures_intrinsics\\F15\\procedures_intrinsics_mutated.f90",
+  "language": "fortran",
+  "requested": [
+    "F15"
+  ],
+  "applied_count": 1,
+  "applied": [
+    {
+      "mutation_id": "F15",
+      "language": "fortran",
+      "category": "syntax",
+      "title": "Wrong END SUBROUTINE name",
+      "line": 19,
+      "column": 18,
+      "original_code": "  end subroutine set_answer",
+      "mutated_code": "  end subroutine wrong_name",
+      "expected_keywords": [
+        "expected",
+        "subroutine",
+        "wrong"
+      ],
+      "fix_hint": "Match the END SUBROUTINE name with the declaration.",
+      "severity": "error"
+    }
+  ],
+  "skipped": []
+}

@@ -1,0 +1,29 @@
+{
+  "source_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\testcases\\c\\functions_arrays.c",
+  "mutated_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\reports\\cases\\functions_arrays\\C16\\functions_arrays_mutated.c",
+  "language": "c",
+  "requested": [
+    "C16"
+  ],
+  "applied_count": 1,
+  "applied": [
+    {
+      "mutation_id": "C16",
+      "language": "c",
+      "category": "array",
+      "title": "Array index out of bounds",
+      "line": 16,
+      "column": 9,
+      "original_code": "    int scores[4] = {10, 20, 30, 40};",
+      "mutated_code": "    int scores[4] = {10, 20, 30, 40};",
+      "expected_keywords": [
+        "bounds",
+        "array",
+        "subscript"
+      ],
+      "fix_hint": "Use an index between 0 and size-1.",
+      "severity": "warning"
+    }
+  ],
+  "skipped": []
+}

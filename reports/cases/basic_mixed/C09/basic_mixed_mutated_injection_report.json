@@ -1,0 +1,29 @@
+{
+  "source_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\testcases\\c\\basic_mixed.c",
+  "mutated_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\reports\\cases\\basic_mixed\\C09\\basic_mixed_mutated.c",
+  "language": "c",
+  "requested": [
+    "C09"
+  ],
+  "applied_count": 1,
+  "applied": [
+    {
+      "mutation_id": "C09",
+      "language": "c",
+      "category": "scope",
+      "title": "Undeclared variable",
+      "line": 27,
+      "column": 14,
+      "original_code": "    for (int i = 0; i < 3; i++) {",
+      "mutated_code": "    for (int missing_i = 0; i < 3; i++) {",
+      "expected_keywords": [
+        "undeclared",
+        "identifier",
+        "not declared"
+      ],
+      "fix_hint": "Declare the variable or correct the spelling.",
+      "severity": "error"
+    }
+  ],
+  "skipped": []
+}

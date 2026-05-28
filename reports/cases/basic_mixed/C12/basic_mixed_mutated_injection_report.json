@@ -1,0 +1,29 @@
+{
+  "source_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\testcases\\c\\basic_mixed.c",
+  "mutated_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\reports\\cases\\basic_mixed\\C12\\basic_mixed_mutated.c",
+  "language": "c",
+  "requested": [
+    "C12"
+  ],
+  "applied_count": 1,
+  "applied": [
+    {
+      "mutation_id": "C12",
+      "language": "c",
+      "category": "scope",
+      "title": "Out-of-scope variable usage",
+      "line": 26,
+      "column": 18,
+      "original_code": "<line inserted>",
+      "mutated_code": "    printf(\"%d\", local);",
+      "expected_keywords": [
+        "undeclared",
+        "scope",
+        "not declared"
+      ],
+      "fix_hint": "Move the use inside scope or declare a new variable.",
+      "severity": "error"
+    }
+  ],
+  "skipped": []
+}

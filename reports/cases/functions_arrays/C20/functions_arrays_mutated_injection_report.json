@@ -1,0 +1,29 @@
+{
+  "source_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\testcases\\c\\functions_arrays.c",
+  "mutated_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\reports\\cases\\functions_arrays\\C20\\functions_arrays_mutated.c",
+  "language": "c",
+  "requested": [
+    "C20"
+  ],
+  "applied_count": 1,
+  "applied": [
+    {
+      "mutation_id": "C20",
+      "language": "c",
+      "category": "format",
+      "title": "Format string mismatch",
+      "line": 20,
+      "column": 17,
+      "original_code": "        printf(\"%d\\n\", multiply(total, 2));",
+      "mutated_code": "        printf(\"%s\\n\", multiply(total, 2));",
+      "expected_keywords": [
+        "format",
+        "expects",
+        "argument"
+      ],
+      "fix_hint": "Use a printf conversion matching the argument type.",
+      "severity": "warning"
+    }
+  ],
+  "skipped": []
+}

@@ -1,0 +1,29 @@
+{
+  "source_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\testcases\\fortran\\basic_subroutine.f90",
+  "mutated_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\reports\\cases\\basic_subroutine\\F06\\basic_subroutine_mutated.f90",
+  "language": "fortran",
+  "requested": [
+    "F06"
+  ],
+  "applied_count": 1,
+  "applied": [
+    {
+      "mutation_id": "F06",
+      "language": "fortran",
+      "category": "array",
+      "title": "Array rank mismatch",
+      "line": 10,
+      "column": 25,
+      "original_code": "  call update(value, arr(1))",
+      "mutated_code": "  call update(value, arr(1, 1))",
+      "expected_keywords": [
+        "rank",
+        "array",
+        "subscript"
+      ],
+      "fix_hint": "Use the declared array rank.",
+      "severity": "error"
+    }
+  ],
+  "skipped": []
+}

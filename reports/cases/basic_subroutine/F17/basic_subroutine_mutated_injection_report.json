@@ -1,0 +1,29 @@
+{
+  "source_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\testcases\\fortran\\basic_subroutine.f90",
+  "mutated_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\reports\\cases\\basic_subroutine\\F17\\basic_subroutine_mutated.f90",
+  "language": "fortran",
+  "requested": [
+    "F17"
+  ],
+  "applied_count": 1,
+  "applied": [
+    {
+      "mutation_id": "F17",
+      "language": "fortran",
+      "category": "control-flow",
+      "title": "Modification of DO loop variable",
+      "line": 17,
+      "column": 12,
+      "original_code": "<line inserted>",
+      "mutated_code": "     value = 99",
+      "expected_keywords": [
+        "loop variable",
+        "do variable",
+        "redefined"
+      ],
+      "fix_hint": "Do not assign to the active DO loop variable.",
+      "severity": "error"
+    }
+  ],
+  "skipped": []
+}

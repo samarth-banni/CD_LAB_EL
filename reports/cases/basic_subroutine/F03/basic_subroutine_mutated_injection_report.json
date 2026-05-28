@@ -1,0 +1,29 @@
+{
+  "source_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\testcases\\fortran\\basic_subroutine.f90",
+  "mutated_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\reports\\cases\\basic_subroutine\\F03\\basic_subroutine_mutated.f90",
+  "language": "fortran",
+  "requested": [
+    "F03"
+  ],
+  "applied_count": 1,
+  "applied": [
+    {
+      "mutation_id": "F03",
+      "language": "fortran",
+      "category": "scope",
+      "title": "Undeclared variable",
+      "line": 16,
+      "column": 6,
+      "original_code": "  do value = 1, 3",
+      "mutated_code": "  do missing_value = 1, 3",
+      "expected_keywords": [
+        "implicit",
+        "no implicit type",
+        "undeclared"
+      ],
+      "fix_hint": "Declare the variable or fix the spelling.",
+      "severity": "error"
+    }
+  ],
+  "skipped": []
+}

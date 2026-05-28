@@ -1,0 +1,29 @@
+{
+  "source_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\testcases\\c\\basic_mixed.c",
+  "mutated_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\reports\\cases\\basic_mixed\\C01\\basic_mixed_mutated.c",
+  "language": "c",
+  "requested": [
+    "C01"
+  ],
+  "applied_count": 1,
+  "applied": [
+    {
+      "mutation_id": "C01",
+      "language": "c",
+      "category": "syntax",
+      "title": "Missing semicolon",
+      "line": 31,
+      "column": 61,
+      "original_code": "    printf(\"%d %p %.2f %d\\n\", value, (void *)ptr, ratio, p.x);",
+      "mutated_code": "    printf(\"%d %p %.2f %d\\n\", value, (void *)ptr, ratio, p.x)",
+      "expected_keywords": [
+        "semicolon",
+        "expected",
+        ";"
+      ],
+      "fix_hint": "Restore the semicolon at the end of the statement.",
+      "severity": "error"
+    }
+  ],
+  "skipped": []
+}

@@ -1,0 +1,29 @@
+{
+  "source_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\testcases\\c\\functions_arrays.c",
+  "mutated_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\reports\\cases\\functions_arrays\\C18\\functions_arrays_mutated.c",
+  "language": "c",
+  "requested": [
+    "C18"
+  ],
+  "applied_count": 1,
+  "applied": [
+    {
+      "mutation_id": "C18",
+      "language": "c",
+      "category": "logic",
+      "title": "Assignment instead of comparison",
+      "line": 19,
+      "column": 15,
+      "original_code": "    if (total == 100) {",
+      "mutated_code": "    if (total = 100) {",
+      "expected_keywords": [
+        "assignment",
+        "truth value",
+        "parentheses"
+      ],
+      "fix_hint": "Use == for comparison or extra parentheses for intentional assignment.",
+      "severity": "warning"
+    }
+  ],
+  "skipped": []
+}

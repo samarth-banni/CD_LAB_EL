@@ -1,0 +1,29 @@
+{
+  "source_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\testcases\\c\\basic_mixed.c",
+  "mutated_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\reports\\cases\\basic_mixed\\C02\\basic_mixed_mutated.c",
+  "language": "c",
+  "requested": [
+    "C02"
+  ],
+  "applied_count": 1,
+  "applied": [
+    {
+      "mutation_id": "C02",
+      "language": "c",
+      "category": "syntax",
+      "title": "Extra semicolon after control statement",
+      "line": 27,
+      "column": 34,
+      "original_code": "    for (int i = 0; i < 3; i++) {",
+      "mutated_code": "    for (int i = 0; i < 3; i++) {;",
+      "expected_keywords": [
+        "empty body",
+        "semicolon",
+        "warning"
+      ],
+      "fix_hint": "Remove the stray semicolon after the control condition.",
+      "severity": "warning"
+    }
+  ],
+  "skipped": []
+}

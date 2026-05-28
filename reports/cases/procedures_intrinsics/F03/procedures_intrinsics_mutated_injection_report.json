@@ -1,0 +1,29 @@
+{
+  "source_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\testcases\\fortran\\procedures_intrinsics.f90",
+  "mutated_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\reports\\cases\\procedures_intrinsics\\F03\\procedures_intrinsics_mutated.f90",
+  "language": "fortran",
+  "requested": [
+    "F03"
+  ],
+  "applied_count": 1,
+  "applied": [
+    {
+      "mutation_id": "F03",
+      "language": "fortran",
+      "category": "scope",
+      "title": "Undeclared variable",
+      "line": 18,
+      "column": 5,
+      "original_code": "    target = value",
+      "mutated_code": "    missing_target = value",
+      "expected_keywords": [
+        "implicit",
+        "no implicit type",
+        "undeclared"
+      ],
+      "fix_hint": "Declare the variable or fix the spelling.",
+      "severity": "error"
+    }
+  ],
+  "skipped": []
+}

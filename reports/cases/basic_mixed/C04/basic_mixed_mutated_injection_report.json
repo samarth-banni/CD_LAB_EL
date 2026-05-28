@@ -1,0 +1,30 @@
+{
+  "source_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\testcases\\c\\basic_mixed.c",
+  "mutated_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\reports\\cases\\basic_mixed\\C04\\basic_mixed_mutated.c",
+  "language": "c",
+  "requested": [
+    "C04"
+  ],
+  "applied_count": 1,
+  "applied": [
+    {
+      "mutation_id": "C04",
+      "language": "c",
+      "category": "syntax",
+      "title": "Mismatched parenthesis/bracket",
+      "line": 31,
+      "column": 45,
+      "original_code": "    printf(\"%d %p %.2f %d\\n\", value, (void *)ptr, ratio, p.x);",
+      "mutated_code": "    printf(\"%d %p %.2f %d\\n\", value, (void *]ptr, ratio, p.x);",
+      "expected_keywords": [
+        "expected",
+        ")",
+        "]",
+        "bracket"
+      ],
+      "fix_hint": "Use the matching closing parenthesis.",
+      "severity": "error"
+    }
+  ],
+  "skipped": []
+}

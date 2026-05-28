@@ -1,0 +1,30 @@
+{
+  "source_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\testcases\\c\\control_flow.c",
+  "mutated_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\reports\\cases\\control_flow\\C07\\control_flow_mutated.c",
+  "language": "c",
+  "requested": [
+    "C07"
+  ],
+  "applied_count": 1,
+  "applied": [
+    {
+      "mutation_id": "C07",
+      "language": "c",
+      "category": "type",
+      "title": "Wrong return type",
+      "line": 20,
+      "column": 5,
+      "original_code": "    return 0;",
+      "mutated_code": "    return \"wrong\";",
+      "expected_keywords": [
+        "return",
+        "pointer",
+        "integer",
+        "incompatible"
+      ],
+      "fix_hint": "Return a value compatible with the function return type.",
+      "severity": "error"
+    }
+  ],
+  "skipped": []
+}

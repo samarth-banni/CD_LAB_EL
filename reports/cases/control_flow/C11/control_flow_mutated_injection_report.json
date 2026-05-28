@@ -1,0 +1,28 @@
+{
+  "source_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\testcases\\c\\control_flow.c",
+  "mutated_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\reports\\cases\\control_flow\\C11\\control_flow_mutated.c",
+  "language": "c",
+  "requested": [
+    "C11"
+  ],
+  "applied_count": 1,
+  "applied": [
+    {
+      "mutation_id": "C11",
+      "language": "c",
+      "category": "dataflow",
+      "title": "Use before initialization",
+      "line": 19,
+      "column": 18,
+      "original_code": "    int result = classify(5);",
+      "mutated_code": "    printf(\"%d\", result);",
+      "expected_keywords": [
+        "uninitialized",
+        "may be used"
+      ],
+      "fix_hint": "Initialize the variable before its first use.",
+      "severity": "warning"
+    }
+  ],
+  "skipped": []
+}

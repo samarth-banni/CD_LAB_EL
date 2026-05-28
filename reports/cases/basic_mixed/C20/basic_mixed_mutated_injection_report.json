@@ -1,0 +1,29 @@
+{
+  "source_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\testcases\\c\\basic_mixed.c",
+  "mutated_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\reports\\cases\\basic_mixed\\C20\\basic_mixed_mutated.c",
+  "language": "c",
+  "requested": [
+    "C20"
+  ],
+  "applied_count": 1,
+  "applied": [
+    {
+      "mutation_id": "C20",
+      "language": "c",
+      "category": "format",
+      "title": "Format string mismatch",
+      "line": 31,
+      "column": 13,
+      "original_code": "    printf(\"%d %p %.2f %d\\n\", value, (void *)ptr, ratio, p.x);",
+      "mutated_code": "    printf(\"%s %p %.2f %d\\n\", value, (void *)ptr, ratio, p.x);",
+      "expected_keywords": [
+        "format",
+        "expects",
+        "argument"
+      ],
+      "fix_hint": "Use a printf conversion matching the argument type.",
+      "severity": "warning"
+    }
+  ],
+  "skipped": []
+}

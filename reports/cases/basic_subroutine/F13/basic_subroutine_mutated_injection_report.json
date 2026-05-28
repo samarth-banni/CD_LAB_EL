@@ -1,0 +1,29 @@
+{
+  "source_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\testcases\\fortran\\basic_subroutine.f90",
+  "mutated_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\reports\\cases\\basic_subroutine\\F13\\basic_subroutine_mutated.f90",
+  "language": "fortran",
+  "requested": [
+    "F13"
+  ],
+  "applied_count": 1,
+  "applied": [
+    {
+      "mutation_id": "F13",
+      "language": "fortran",
+      "category": "literal",
+      "title": "Malformed numeric literal",
+      "line": 6,
+      "column": 15,
+      "original_code": "  real :: x = 4.0",
+      "mutated_code": "  real :: x = 1.2.3",
+      "expected_keywords": [
+        "invalid",
+        "real",
+        "literal"
+      ],
+      "fix_hint": "Use a valid numeric literal.",
+      "severity": "error"
+    }
+  ],
+  "skipped": []
+}

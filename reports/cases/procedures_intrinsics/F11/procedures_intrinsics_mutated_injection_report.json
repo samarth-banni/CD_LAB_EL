@@ -1,0 +1,29 @@
+{
+  "source_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\testcases\\fortran\\procedures_intrinsics.f90",
+  "mutated_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\reports\\cases\\procedures_intrinsics\\F11\\procedures_intrinsics_mutated.f90",
+  "language": "fortran",
+  "requested": [
+    "F11"
+  ],
+  "applied_count": 1,
+  "applied": [
+    {
+      "mutation_id": "F11",
+      "language": "fortran",
+      "category": "function",
+      "title": "Bad intrinsic argument type",
+      "line": 10,
+      "column": 15,
+      "original_code": "     print *, sqrt(x), answer",
+      "mutated_code": "     print *, sqrt(\"text\"), answer",
+      "expected_keywords": [
+        "argument",
+        "sqrt",
+        "real"
+      ],
+      "fix_hint": "Pass a numeric argument to the intrinsic.",
+      "severity": "error"
+    }
+  ],
+  "skipped": []
+}

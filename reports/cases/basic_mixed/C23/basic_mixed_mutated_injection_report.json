@@ -1,0 +1,29 @@
+{
+  "source_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\testcases\\c\\basic_mixed.c",
+  "mutated_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\reports\\cases\\basic_mixed\\C23\\basic_mixed_mutated.c",
+  "language": "c",
+  "requested": [
+    "C23"
+  ],
+  "applied_count": 1,
+  "applied": [
+    {
+      "mutation_id": "C23",
+      "language": "c",
+      "category": "control-flow",
+      "title": "Break outside loop or switch",
+      "line": 14,
+      "column": 5,
+      "original_code": "<line inserted>",
+      "mutated_code": "    break;",
+      "expected_keywords": [
+        "break",
+        "not within",
+        "loop"
+      ],
+      "fix_hint": "Move break inside a loop/switch or remove it.",
+      "severity": "error"
+    }
+  ],
+  "skipped": []
+}

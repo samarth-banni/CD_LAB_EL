@@ -1,0 +1,29 @@
+{
+  "source_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\testcases\\c\\functions_arrays.c",
+  "mutated_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\reports\\cases\\functions_arrays\\C09\\functions_arrays_mutated.c",
+  "language": "c",
+  "requested": [
+    "C09"
+  ],
+  "applied_count": 1,
+  "applied": [
+    {
+      "mutation_id": "C09",
+      "language": "c",
+      "category": "scope",
+      "title": "Undeclared variable",
+      "line": 10,
+      "column": 9,
+      "original_code": "        total = total + values[i];",
+      "mutated_code": "        missing_total = total + values[i];",
+      "expected_keywords": [
+        "undeclared",
+        "identifier",
+        "not declared"
+      ],
+      "fix_hint": "Declare the variable or correct the spelling.",
+      "severity": "error"
+    }
+  ],
+  "skipped": []
+}

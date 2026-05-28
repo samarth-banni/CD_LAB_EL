@@ -1,0 +1,29 @@
+{
+  "source_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\testcases\\fortran\\basic_subroutine.f90",
+  "mutated_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\reports\\cases\\basic_subroutine\\F02\\basic_subroutine_mutated.f90",
+  "language": "fortran",
+  "requested": [
+    "F02"
+  ],
+  "applied_count": 1,
+  "applied": [
+    {
+      "mutation_id": "F02",
+      "language": "fortran",
+      "category": "type",
+      "title": "Integer assigned character literal",
+      "line": 4,
+      "column": 20,
+      "original_code": "  integer :: value = 10",
+      "mutated_code": "  integer :: value = \"hello\"",
+      "expected_keywords": [
+        "cannot convert",
+        "integer",
+        "character"
+      ],
+      "fix_hint": "Assign an integer value or change the variable type.",
+      "severity": "error"
+    }
+  ],
+  "skipped": []
+}

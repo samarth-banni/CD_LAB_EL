@@ -1,0 +1,30 @@
+{
+  "source_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\testcases\\c\\basic_mixed.c",
+  "mutated_file": "C:\\Users\\samar\\OneDrive\\Documents\\New project 2\\reports\\cases\\basic_mixed\\C07\\basic_mixed_mutated.c",
+  "language": "c",
+  "requested": [
+    "C07"
+  ],
+  "applied_count": 1,
+  "applied": [
+    {
+      "mutation_id": "C07",
+      "language": "c",
+      "category": "type",
+      "title": "Wrong return type",
+      "line": 32,
+      "column": 5,
+      "original_code": "    return add(value, arr[1]);",
+      "mutated_code": "    return \"wrong\";",
+      "expected_keywords": [
+        "return",
+        "pointer",
+        "integer",
+        "incompatible"
+      ],
+      "fix_hint": "Return a value compatible with the function return type.",
+      "severity": "error"
+    }
+  ],
+  "skipped": []
+}
