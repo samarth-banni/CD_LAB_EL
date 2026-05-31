@@ -12,9 +12,13 @@ PYTHONPATH="$ROOT_DIR/src" python3 benchmark_runner.py \
   testcases/c/functions_arrays.c \
   testcases/c/pointers_structs.c \
   testcases/c/control_flow.c \
+  testcases/c/strings_memory.c \
+  testcases/c/preprocessor_typedefs.c \
   testcases/fortran/basic_subroutine.f90 \
   testcases/fortran/arrays_control.f90 \
   testcases/fortran/procedures_intrinsics.f90 \
+  testcases/fortran/modules_kinds.f90 \
+  testcases/fortran/io_select_case.f90 \
   --output-dir reports \
   --mutations all
 

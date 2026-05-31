@@ -95,6 +95,7 @@ The benchmark currently includes:
 
 - 24 C mutation categories
 - 22 Fortran mutation categories
+- 11 valid sample programs under `testcases/`
 
 Examples include missing semicolons, type mismatches, undeclared variables, wrong argument counts, pointer mistakes, bad format strings, missing `END IF`, wrong subroutine calls, malformed literals, and declarations after executable statements.
 
@@ -110,6 +111,8 @@ The scorer gives each compiler diagnostic a score from 0 to 100 using fuzzy logi
 - signal-to-noise
 
 This is fuzzy rather than binary because real compiler messages are often partly useful. A message can point to the right line but explain the wrong concept, or identify the right concept but give no repair hint. For Clang, the harness also captures parseable fix-it suggestions and checks whether the suggested source range is close to the injected mistake.
+
+The scorer uses a Mamdani-style fuzzy approach. Each metric is normalized to 0.0-1.0, mapped into low/medium/high memberships, evaluated through fuzzy rules, and defuzzified into a final 0-100 score.
 
 ## Documentation
 

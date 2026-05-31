@@ -98,11 +98,11 @@ Error: Can't convert CHARACTER(1) to INTEGER(4) at (1)
 
 The parser turns both into a normalized `Diagnostic` object with file, line, column, severity, and message.
 
-## Fuzzy Scorer
+## Mamdani-Style Fuzzy Scorer
 
 File: `src/compiler_benchmark/scorer.py`
 
-The scorer compares a compiler diagnostic against the known injected mutation.
+The scorer compares a compiler diagnostic against the known injected mutation. The implementation uses a Mamdani-style fuzzy inference model: normalized inputs are mapped to linguistic memberships, rule strengths activate linguistic output qualities, and the active outputs are defuzzified into one numeric score.
 
 It calculates six input values:
 
@@ -115,7 +115,25 @@ It calculates six input values:
 | clarity | Is the message specific and understandable? |
 | signal | Is the useful diagnostic early and not buried in noise? |
 
-Those values are fuzzified into low, medium, and high membership values. Then rules produce an output quality level such as weak, fair, good, or excellent. The final output is a 0-100 score.
+Those values are fuzzified into low, medium, and high membership values:
+
+| Membership | Function used in code | Parameters |
+|---|---|---|
+| low | left shoulder | `a=0.25`, `b=0.45` |
+| medium | triangular | `a=0.25`, `b=0.55`, `c=0.80` |
+| high | right shoulder | `a=0.65`, `b=0.90` |
+
+Rules then produce output quality labels such as poor, weak, fair, good, and excellent. The implementation uses these numeric output centers:
+
+| Output quality | Center |
+|---|---:|
+| poor | 15 |
+| weak | 35 |
+| fair | 55 |
+| good | 75 |
+| excellent | 92 |
+
+The final 0-100 score is a weighted average of the active output centers. The weight for each output center is the activation strength of the fuzzy rule that produced it.
 
 For fix-it validity, the scorer gives the strongest credit to parseable fix-it ranges that point near the injected mutation line. Vague text like “did you mean” still receives some credit, but less than a structured fix-it that identifies a source range.
 
