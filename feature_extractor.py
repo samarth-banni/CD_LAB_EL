@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+
 """Compatibility wrapper for the C/Fortran feature extractor."""
 
 from pathlib import Path
